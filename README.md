@@ -14,9 +14,10 @@ To run using [now](https://zeit.co/now/):
 ```
 npm install -g now
 now
+```
 
-To run using Docker
-
+To run using Docker [localhost](http://localhost:3002)
+```
 docker build -t google-play-api .
 docker run --rm -d  -p 3002:3002/tcp google-play-api:latest
 Access apps on http://localhost:3002
