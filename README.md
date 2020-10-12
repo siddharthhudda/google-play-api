@@ -16,11 +16,11 @@ npm install -g now
 now
 
 To run using Docker
-```
+
 docker build -t google-play-api .
 docker run --rm -d  -p 3002:3002/tcp google-play-api:latest
 Access apps on http://localhost:3002
-
+```
 
 ## Play With Docker
 
